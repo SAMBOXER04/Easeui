@@ -1,11 +1,9 @@
 import {
   ArrowRight,
   BarChart3,
-  BriefcaseBusiness,
   Check,
   Code2,
   LayoutTemplate,
-  Monitor,
   ShoppingBag,
   Smartphone,
   UserRound,

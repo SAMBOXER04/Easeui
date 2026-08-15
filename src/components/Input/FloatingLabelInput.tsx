@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { cn } from "@/libs/utils";
 import { cva } from "class-variance-authority";
+import type { InputHTMLAttributes } from "react";
 
 const wrapper = cva("relative w-full");
 const inputCls = cva(
@@ -18,7 +19,7 @@ const inputCls = cva(
 );
 
 export interface FloatingLabelProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {
+  extends Omit<InputHTMLAttributes<HTMLInputElement>, "size"> {
   label: string;
   size?: "sm" | "md" | "lg";
 }

@@ -12,7 +12,7 @@ import {
 import { useNavigate } from "react-router";
 
 import { Button } from "@/components/Button/Button";
-import { Layout } from "@/components/Layout/Layout";
+
 
 const AboutPage = () => {
   const navigate = useNavigate();
